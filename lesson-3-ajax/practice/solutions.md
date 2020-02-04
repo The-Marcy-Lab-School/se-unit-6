@@ -121,6 +121,8 @@ function createBookList(books){
 
 5. Write a function, `renderBookList`, that given an array of books, actually renders an unordered list into the DOM.
 
+**Suggested Answer**
+
 ```js
 function addSearchListener(e){
   const results = document.getElementById('results')
@@ -148,6 +150,8 @@ function addSearchListener(e){
 ```
 
 6. Update your code so that, when a user types in a search query and submits the form, we render a list of books based on the search results from the Google Books API.
+
+**Suggested Answer**
 
 ```js
 function addSearchListener(e){
