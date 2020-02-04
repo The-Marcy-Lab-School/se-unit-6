@@ -115,7 +115,7 @@ function createBookList(books){
     bookList.append(listItem)
   })
 
-  return bookList;
+  return bookList
 }
 ```
 
@@ -136,7 +136,7 @@ function addSearchListener(e){
       bookList.append(listItem)
     })
 
-    return bookList;
+    return bookList
   }
 
   function createBookListItem(volumeInfo){
@@ -156,8 +156,12 @@ function addSearchListener(e){
   const results = document.getElementById('results')
 
   function handleSearch(e){
-    e.preventDefault();
+    e.preventDefault()
     fetchBooks(search.value).then(books => renderBookList(books))
+  }
+
+  function renderBookList(books){
+    results.append(createBookList(books))
   }
 
   function fetchBooks(query){
@@ -168,10 +172,6 @@ function addSearchListener(e){
       .then(data => data.items )
   }
 
-  function renderBookList(books){
-    results.append(createBookList(books))
-  }
-
   function createBookList(books){
     const bookList = document.createElement('ul')
     books.forEach(book => {
@@ -179,7 +179,7 @@ function addSearchListener(e){
       bookList.append(listItem)
     })
 
-    return bookList;
+    return bookList
   }
 
   function createBookListItem(volumeInfo){
@@ -250,4 +250,4 @@ function bookSearchController(){
 document.addEventListener('DOMContentLoaded', bookSearchController)
 ```
 
-8. Write an application that allows a user to search for GIFs using the [GiphyAPI](https://developers.giphy.com/docs/api/endpoint#search). Your application should include a form where a user can input a search query. You should then get a list of results from the Giphy API and display one at random to the user: 
+8. Write an application that allows a user to search for GIFs using the [GiphyAPI](https://developers.giphy.com/docs/api/endpoint#search). Your application should include a form where a user can input a search query. You should then get a list of results from the Giphy API and display one at random to the user.
