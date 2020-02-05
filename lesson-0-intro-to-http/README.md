@@ -1,0 +1,27 @@
+# Unit 6 Lesson 0:  Intro to HTTP
+
+## Key Terms
+* HTTP
+* DNS
+* TCP/IP
+* Session
+* Cookies
+* Request/Response Cycle
+* Same Origin Policy
+* CORS
+* HTTPS
+
+## Essential Questions
+* How do protocols ensure safe and secure transfer of data across the internet?
+* What is the request/response cycle? How would you describe this to a non-technical person? What about a technical person?
+* What is the difference between "stateless" and "stateful? How does that apply to the internet?  
+
+## Learning Assignments
+* [Introduction to HTTP](https://launchschool.com/books/http)
+* [HTTP: Learn Your Browser's Language](https://jvns.ca/blog/2019/09/12/new-zine-on-http/)
+* [A Brief History of the Web](https://www.w3.org/History.html)
+* [How DNS Works Comic](https://howdns.works/ep2/)
+* [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
+
+## Problem Set
+[Problem Set 6.0]()
