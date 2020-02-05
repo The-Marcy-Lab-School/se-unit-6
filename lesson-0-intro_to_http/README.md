@@ -18,7 +18,7 @@
 
 ## Learning Assignments
 * [Introduction to HTTP](https://launchschool.com/books/http)
-* [HTTP: Learn Your Browser's Language](https://jvns.ca/blog/2019/09/12/new-zine-on-http/)
+* [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine-print-letter-color.pdf)
 * [A Brief History of the Web](https://www.w3.org/History.html)
 * [How DNS Works Comic](https://howdns.works/ep2/)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
