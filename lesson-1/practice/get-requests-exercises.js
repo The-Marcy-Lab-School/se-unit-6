@@ -1,5 +1,32 @@
 /**
- * For exercises 1-4, use the `Random User Generator API` and
+ * EXERCISE 1:
+ * Read this analogous conversation related to Promises.
+ * Aftwerwards, explain the parts of his analogy to describe
+ * how asynchronous calls and promises work.
+ *
+ * 		Raul: Hey Mx. Promise! Can you run to the store down the street
+ * 		and get me itemA for this dish we are cooking tonight?
+ *
+ * 		Mx. Promise: Sure thing!
+ *
+ * 		Raul: While you are doing that, I will prepare itemB.
+ * 		But make sure you let me know whether you could find itemA.
+ *
+ *		Mx. Promise: What if you are not at home when I am back?
+ *
+ *		Raul: In that case, send me a text message saying you are
+ *		back and have the item for me.
+ * 		If you don’t find it, call me back immediately.
+ *
+ * 		Mx. Promise: Sounds good! See you in a bit.
+ */
+
+const response1 = `
+    Write youre response here.
+ `;
+
+/**
+ * For exercises 2-5, use the `Random User Generator API` and
  * write your solutions using .then() syntax.
  *
  * TIPS:
@@ -13,19 +40,20 @@
  * except for the solution to the exercise that you are currently
  * working on.
  *
- * 4) Code out your solution underneath each exercise.
  */
 
 /**
- * Exercise 1:
+ * Exercise 2:
  *
  * Create a function called `logUsers` to log all information for
  * 500 users. Ensure that you only log the `results` from the
  * response object.
  */
 
+const logUsers = null; //Replace null with your solution code to exercise 2
+
 /**
- * Exercise 2:
+ * Exercise 3:
  *
  * Create a function called `listTenNames` and then invoke it.
  * This function needs to
@@ -33,8 +61,10 @@
  * 2. number each of the names from 1-10.
  */
 
+const listTenNames = null; //Replace null with your solution code to exercise 3
+
 /**
- * Exercise 3:
+ * Exercise 4:
  * Create a function called `createPhoneBook` and invoke it.
  * This function needs to:
  * 1. get phone numbers for 25 users.
@@ -44,8 +74,10 @@
  *
  */
 
+const createPhoneBook = null; //Replace null with your solution code to exercise 4
+
 /**
- * Exercise 4:
+ * Exercise 5:
  *
  * Create a function called `createPhotoAlbum` and invoke it.
  *
@@ -62,8 +94,10 @@
  * with multiple parameters
  */
 
+const createPhotoAlbum = null; //Replace null with your solution code to exercise 5
+
 /**
- * For exercises 5-6, use the `Joke API` and
+ * For exercises 6-7, use the `Joke API` and
  * write your solutions using the async/await syntax
  *
  * TIPS:
@@ -73,7 +107,7 @@
  */
 
 /**
- * Exercise 5:
+ * Exercise 6:
  * Create a function called `logAJoke`.
  *
  * This function needs to:
@@ -81,8 +115,10 @@
  * 2) log the setup and delivery of the joke on separate lines
  */
 
+const logAJoke = null; //Replace null with your solution code to exercise 6
+
 /**
- * Exercise 6:
+ * Exercise 7:
  * Create a function called `showApiInfo`.
  *
  * This function needs to:
@@ -90,3 +126,14 @@
  * 2)  within the body of the browser, show the info portion of the response object
  *
  */
+const showApiInfo = null; //Replace null with your solution code to exercise 7
+
+/**
+ * EXERCISE 8:
+ * Which manner of handling promises appears to be more advantageous:
+ * .then() or async/await? Briefly explain.
+ */
+
+const response8 = `
+	Write your response here
+ `;
