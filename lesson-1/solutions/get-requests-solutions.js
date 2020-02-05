@@ -1,5 +1,43 @@
 /**
- * For exercises 1-4, use the `Random User Generator API` and
+ * EXERCISE 1:
+ * Read this analogous conversation related to Promises.
+ * Aftwerwards, explain the parts of his analogy to describe
+ * how asynchronous calls and promises work.
+ *
+ * 		Raul: Hey Mx. Promise! Can you run to the store down the street
+ * 		and get me itemA for this dish we are cooking tonight?
+ *
+ * 		Mx. Promise: Sure thing!
+ *
+ * 		Raul: While you are doing that, I will prepare itemB.
+ * 		But make sure you let me know whether you could find itemA.
+ *
+ *		Mx. Promise: What if you are not at home when I am back?
+ *
+ *		Raul: In that case, send me a text message saying you are
+ *		back and have the item for me.
+ * 		If you don’t find it, call me back immediately.
+ *
+ * 		Mx. Promise: Sounds good! See you in a bit.
+ */
+
+const potentialSolution1 = `
+	 Potential response:
+	 A Promise is Javascirpt object representing the eventual completion
+	 or eventual failure of an asynchronous operation. Essentially, a promise
+	 is a returned object to which developers attach callbacks,
+	 instead of passing callbacks into a function as with prior handling
+	 of making requests. In this analogy above:
+
+	 Raul makes something similar to an AJAX Request. While that request
+	 is running, there is another asynchronous operation (preparing itemB)
+	 that takes place. The return value will either be the data fetched
+	 by the AJAX request or some other callback will be invoked to deal with
+	 the lack of the appropriate data being sent.
+ `;
+
+/**
+ * For exercises 2-5, use the `Random User Generator API` and
  * write your solutions using .then() syntax.
  *
  * TIPS:
@@ -16,7 +54,7 @@
  */
 
 /**
- * Exercise: 1
+ * Exercise 2:
  *
  * Create a function called `logUsers` to log all information for
  * 500 users. Ensure that you only log the `results` from the
@@ -38,7 +76,7 @@ const logUsers = () => {
 logUsers();
 
 /**
- * Exercise: 2
+ * Exercise 3:
  *
  * Create a function called `listTenNames` and then invoke it.
  * This function needs to
@@ -66,7 +104,7 @@ const listTenNames = () => {
 listTenNames();
 
 /**
- * Exercise: 3
+ * Exercise 4:
  * Create a function called `createPhoneBook` and invoke it.
  * This function needs to:
  * 1. get phone numbers for 25 users.
@@ -89,7 +127,9 @@ const createPhoneBook = () => {
 
 			const phoneNumbers = results
 				.map(user => `<li>${user.name.first}: ${user.phone}</li>`)
-				.join('\n');
+				.join(
+					'\n'
+				); /** This is important for having a string data type for the html*/
 
 			main.innerHTML = `
 				<h2>User Phone Numbers:</h2>
@@ -101,7 +141,7 @@ const createPhoneBook = () => {
 createPhoneBook();
 
 /**
- * Exercise 4:
+ * Exercise 5:
  *
  * Create a function called `createPhotoAlbum` and invoke it.
  *
@@ -172,7 +212,7 @@ const createPhotoAlbum = () => {
 createPhotoAlbum();
 
 /**
- * For exercises 5-6, use the `Joke API` and
+ * For exercises 6-7, use the `Joke API` and
  * write your solutions using the async/await syntax
  *
  * TIPS:
@@ -182,7 +222,7 @@ createPhotoAlbum();
  */
 
 /**
- * Exercise 5:
+ * Exercise 6:
  * Create a function called `logAJoke`.
  *
  * This function needs to:
@@ -200,7 +240,7 @@ const logAJoke = async () => {
 logAJoke();
 
 /**
- * Exercise 6:
+ * Exercise 7:
  * Create a function called `showApiInfo`.
  *
  * This function needs to:
@@ -217,3 +257,17 @@ const showApiInfo = async () => {
 	main.innerHTML = data.info;
 };
 showApiInfo();
+
+/**
+ * EXERCISE 8:
+ * Which manner of handling promises appears to be more advantageous:
+ * .then() or async/await? Briefly explain.
+ */
+
+const potentialSoultion8 = `
+	Async/Await seems more adventagous because it allows for more
+	concise code. Also, if there is more code to write, such as
+	writing conditionals, using async/await's more concise format
+	would make the code more readable and easier to understand. Debugging
+	could also be a clearer process if using async/await.
+ `;
