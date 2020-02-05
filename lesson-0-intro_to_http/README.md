@@ -18,10 +18,10 @@
 
 ## Learning Assignments
 * [Introduction to HTTP](https://launchschool.com/books/http)
-* [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine-print-letter-color.pdf)
+* [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine+(2).pdf)
 * [A Brief History of the Web](https://www.w3.org/History.html)
 * [How DNS Works Comic](https://howdns.works/ep2/)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
 
 ## Problem Set
-[Problem Set 6.0]()
+[Problem Set 6.0](https://github.com/The-Marcy-Lab-School/problem-set-6_0)
