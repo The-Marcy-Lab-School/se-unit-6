@@ -6,6 +6,7 @@
 
 - Asynchronous Programming
 - Single-threaded
+- Non-blocking
 - Promises
 - Fetch API
 - Get Requests
@@ -22,16 +23,14 @@
 
 ## Learning Assignments:
 
-**1.MDN Documentation:**
+**1.[Tutorial: Make HTTP request using Fetch API and Promises, Tutorial Created by Armando Amador](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)**
+
+**2.MDN Documentation:**
 
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Async/Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 - [HTTP Requests Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
-
-**2.[Tutorial: Make HTTP request using Fetch API and Promises, Tutorial Created by Armando Amador](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)**
-
-- this tutorial is setup within unit-6/lession-1/tutorial
 
 **3 [Article: Callbacks, Promises, Async/Await](https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/)**
 
