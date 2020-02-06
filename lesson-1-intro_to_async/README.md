@@ -8,11 +8,11 @@
 - Single-threaded
 - Non-blocking
 - Promises
+- `XMLHttpRequest`
 - Fetch API
-- Get Requests
+- GET Requests
 - Query strings
 - Browser
-- Inspector
 
 ## Essential Questions:
 
@@ -23,19 +23,25 @@
 
 ## Learning Assignments:
 
-**1.[Tutorial: Make HTTP request using Fetch API and Promises, Tutorial Created by Armando Amador](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)**
+1. **Tutorial:** [AJAX Basics on Treehouse](https://teamtreehouse.com/library/ajax-basics-2)
+  * **Required:** AJAX Concepts Section
+  * **Optional:** Programming AJAX
 
-**2.MDN Documentation:**
+2. **Tutorial:** [Asynchronous Programming with JavaScript on Treehouse](https://teamtreehouse.com/library/asynchronous-programming-with-javascript)
+  * What is Asynchronous Programming?
+  * Asynchronous JavaScript with Callbacks
+  * Understanding Promises
+
+3. **Tutorial:** [Make HTTP request using Fetch API and Promises](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)**
+
+4. **MDN Documentation:**
 
 - [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 - [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 - [Async/Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 - [HTTP Requests Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
-**3 [Article: Callbacks, Promises, Async/Await](https://www.freecodecamp.org/news/how-to-deal-with-nested-callbacks-and-avoid-callback-hell-1bc8dc4a2012/)**
-
-**4. [Eloquent Javascript: Asynchronous Programming](https://eloquentjavascript.net/11_async.html)**
 
 ## Practice:
 
-[Practice Set 6.1](unit-6/lesson-1/practice)
+[Practice Set 6.1](./practice)
