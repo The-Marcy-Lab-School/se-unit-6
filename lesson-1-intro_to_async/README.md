@@ -24,13 +24,13 @@
 ## Learning Assignments:
 
 1. **Tutorial:** [AJAX Basics on Treehouse](https://teamtreehouse.com/library/ajax-basics-2)
-  * **Required:** AJAX Concepts Section
-  * **Optional:** Programming AJAX
+    * **Required:** AJAX Concepts Section
+    * **Optional:** Programming AJAX
 
 2. **Tutorial:** [Asynchronous Programming with JavaScript on Treehouse](https://teamtreehouse.com/library/asynchronous-programming-with-javascript)
-  * What is Asynchronous Programming?
-  * Asynchronous JavaScript with Callbacks
-  * Understanding Promises
+    * What is Asynchronous Programming?
+    * Asynchronous JavaScript with Callbacks
+    * Understanding Promises
 
 3. **Tutorial:** [Make HTTP request using Fetch API and Promises](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)**
 
