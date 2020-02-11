@@ -49,3 +49,7 @@ Starter code is available for both the XHR tutorial and the Fetch API tutorial.
 - [Using the inspector](https://launchschool.com/books/http/read/making_requests#usingtheinspector)
 - [Request Methods](https://launchschool.com/books/http/read/making_requests#requestmethods)
 - [Get Requests](https://launchschool.com/books/http/read/making_requests#get)
+
+## Practice
+
+[Problem Set](/lesson-2/practice/exercise.md)
