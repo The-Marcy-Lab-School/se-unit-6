@@ -1,6 +1,6 @@
 /**
- * This solution closely matches the video solution found:
- *
+ * This solution closely matches the video solution found on youTube:
+ * https://www.youtube.com/watch?v=wPElVpR1rwA
  */
 window.addEventListener('load', () => {
 	let long;
@@ -69,7 +69,3 @@ window.addEventListener('load', () => {
 		skycons.play();
 	}
 });
-
-/**
- * Video solution walkthrough available: https://www.youtube.com/watch?v=wPElVpR1rwA
- */
