@@ -40,6 +40,7 @@ Starter code is available for both the XHR tutorial and the Fetch API tutorial.
 [(starter code)](https://github.com/academind/xhr-fetch-axios-intro/tree/starting-setup)
 
 [Video: Sending Javascript http Requests with fetch api](https://www.youtube.com/watch?v=23hrM4saaMk)
+
 [Article: Differences & History of XHR to Fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 
 **Assignment 3: Read Launch School Books**
