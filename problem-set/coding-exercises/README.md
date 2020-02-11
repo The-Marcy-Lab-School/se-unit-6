@@ -7,6 +7,7 @@ The purpose of these coding exercises are to build a simple weather app that all
 ## Directions
 
 **Step 0:**
+
 Internalize the structure of the `index.html` and `app.js`. Ensure that you can see the placeholder app by
 a. dragging your `index.html` into an internet browser _or_
 b. copying the path of your `index.html` and pasting it the browser console URL bar.
