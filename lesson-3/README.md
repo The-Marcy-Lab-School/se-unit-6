@@ -50,4 +50,4 @@
 
 ### Practice
 
-[Problem-Set](/se-unit-6/lesson-3/practice/exercise.md)
+[Problem-Set](/lesson-3/practice/exercise.md)
