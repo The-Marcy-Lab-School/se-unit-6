@@ -40,7 +40,7 @@ class UserInterface {
 		const temperatureDegree = document.querySelector('.temperature-degree');
 		const locationTimezone = document.querySelector('.location-timezone');
 		const temperatureSection = document.querySelector('.temperature');
-		const temperatureSpan = document.querySelector('.temperature span');
+		const temperatureSpan = document.querySelector('.temperature-span');
 		// Set DOM Elements from the API
 		temperatureDegree.textContent = temperature;
 		temperatureDescription.textContent = summary;
