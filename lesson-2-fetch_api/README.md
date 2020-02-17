@@ -24,6 +24,4 @@
 * [Promises Practice Set](https://github.com/The-Marcy-Lab-School/promises-practice)
 
 ## 
-<sup>
-["Gretchen, stop trying to make fetch happen. It's not going to happen."](https://www.youtube.com/watch?v=jjt9Qx9MBPk)
-</sup>
+<sup>[Gretchen, stop trying to make fetch happen. It's not going to happen.](https://www.youtube.com/watch?v=jjt9Qx9MBPk)</sup>
