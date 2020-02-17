@@ -1,4 +1,4 @@
-# Unit 6 Lesson 2: XHR vs. Fetch, Get Requests, & Promises
+# Unit 6 Lesson 2: Making "Fetch" Happen
 
 ## Key Terms:
 - Promises
@@ -22,3 +22,8 @@
 ## Practice
 * [Practice Set](./practice)
 * [Promises Practice Set](https://github.com/The-Marcy-Lab-School/promises-practice)
+
+## 
+<sup>
+["Gretchen, stop trying to make fetch happen. It's not going to happen."](https://www.youtube.com/watch?v=jjt9Qx9MBPk)
+</sup>
