@@ -8,45 +8,45 @@ Respond to written responses directly in this markdown file. Use `practice.js` f
 
 **2. Reference the code snippet below. Why would an engineer decide to create the higher order function `sendHttpRequest()` and then invoke it within `getData()` and `sendData()`?**
 
-	```javascript
-	const sendHttpRequest = (method, url, data) => {
-		return fetch(url, {
-			method: method,
-			body: JSON.stringify(data),
-			/*Read more about the conditional operator below (condtion ? expressionA : expression B) via MDN documenation*/
-			headers: data ? { 'Content-Type': 'application/json' } : {}
-		}).then(response => {
-			if (response.status >= 400) {
-				// !response.ok
-				return response.json().then(errResData => {
-					const error = new Error('Something went wrong!');
-					error.data = errResData;
-					throw error;
-				});
-			}
-			return response.json();
-		});
-	};
-
-	const getData = () => {
-		sendHttpRequest('GET', 'https://reqres.in/api/users').then(responseData => {
-			console.log(responseData);
-		});
-	};
-
-	const sendData = () => {
-		sendHttpRequest('POST', 'https://reqres.in/api/register', {
-			email: 'eve.holt@reqres.in'
-			password: 'pistol'
-		})
-			.then(responseData => {
-				console.log(responseData);
-			})
-			.catch(err => {
-				console.log(err, err.data);
+```javascript
+const sendHttpRequest = (method, url, data) => {
+	return fetch(url, {
+		method: method,
+		body: JSON.stringify(data),
+		/*Read more about the conditional operator below (condtion ? expressionA : expression B) via MDN documenation*/
+		headers: data ? { 'Content-Type': 'application/json' } : {}
+	}).then(response => {
+		if (response.status >= 400) {
+			// !response.ok
+			return response.json().then(errResData => {
+				const error = new Error('Something went wrong!');
+				error.data = errResData;
+				throw error;
 			});
-	};
-	```
+		}
+		return response.json();
+	});
+};
+
+const getData = () => {
+	sendHttpRequest('GET', 'https://reqres.in/api/users').then(responseData => {
+		console.log(responseData);
+	});
+};
+
+const sendData = () => {
+	sendHttpRequest('POST', 'https://reqres.in/api/register', {
+		email: 'eve.holt@reqres.in'
+		password: 'pistol'
+	})
+		.then(responseData => {
+			console.log(responseData);
+		})
+		.catch(err => {
+			console.log(err, err.data);
+		});
+};
+```
 
 **3. Reference the code snippet in Exercise #2. What is the purpose of conditionally rendering the headers key value within the `fetch` call in the `sendHttpRequest()` function?**
 
