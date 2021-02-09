@@ -3,6 +3,8 @@
 ## Directions
 Respond to written responses directly in this markdown file. Use `practice.js` for coding challenge solutions.
 
+> iTunes API is deprecated...
+
 **1. Which portion of this URL is the query string? What is the purpose of the query string in this particular example?**
   `'https://itunes.apple.com/search?artist=Janelle%20Monáe'`
 
