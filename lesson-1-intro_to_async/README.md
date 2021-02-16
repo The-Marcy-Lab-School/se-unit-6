@@ -7,8 +7,8 @@
 - Asynchronous Programming
 - Single-threaded
 - Non-blocking
-- Promises
 - `XMLHttpRequest`
+- Promises
 - Fetch API
 - GET Requests
 - Query strings
@@ -23,16 +23,11 @@
 
 ## Learning Assignments:
 
-1. **Tutorial:** [AJAX Basics on Treehouse](https://teamtreehouse.com/library/ajax-basics-2)
-    * **Required:** AJAX Concepts Section
-    * **Optional:** Programming AJAX
+1. **Video:** [Asynchronous JavaScript ](https://www.youtube.com/watch?v=ZcQyJ-gxke0&ab_channel=TheNetNinja)
 
-2. **Tutorial:** [Asynchronous Programming with JavaScript on Treehouse](https://teamtreehouse.com/library/asynchronous-programming-with-javascript)
-    * What is Asynchronous Programming?
-    * Asynchronous JavaScript with Callbacks
-    * Understanding Promises
+2. **Tutorial:** [Beginners Guide To Fetching Data](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 
-3. **Tutorial:** [Make HTTP request using Fetch API and Promises](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)**
+3. **Tutorial:** [Make HTTP request using Fetch API and Promises](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)
 
 4. **MDN Documentation:**
 
