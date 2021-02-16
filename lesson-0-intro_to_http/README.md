@@ -18,6 +18,7 @@
 
 ## Learning Assignments
 * [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine+(2).pdf)
+* [Making Requests](https://launchschool.com/books/http/read/making_requests)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
 
 

@@ -50,4 +50,4 @@
 
 ### Practice
 
-[Problem-Set](/lesson-3/practice/exercise.md)
+[Practice-Set](./practice/exercise.md)

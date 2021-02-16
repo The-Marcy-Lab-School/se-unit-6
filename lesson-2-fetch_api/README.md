@@ -17,7 +17,6 @@
 * **Article:** [Differences & History of XHR to Fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 * **Documentation:** [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * **Documentation:** [Promises.prototype.catch()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
-* **Book:** _(Review)_ Launch School Intro to HTTP Book - [Making Request](https://launchschool.com/books/http/read/making_requests)
 
 ## Practice
 * [Practice Set](./practice)
