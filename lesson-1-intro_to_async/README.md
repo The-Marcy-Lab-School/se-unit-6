@@ -29,7 +29,7 @@
 
 2. **Tutorial:** [Beginners Guide To Fetching Data](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 
-3. **MDN Documentation:**
+## MDN Documentation:
 
     * [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
     * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
