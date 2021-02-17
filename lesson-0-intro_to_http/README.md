@@ -17,13 +17,12 @@
 * What is the difference between "stateless" and "stateful? How does that apply to the internet?  
 
 ## Learning Assignments
+* [Introduction to HTTP](https://launchschool.com/books/http)
 * [Making Requests](https://launchschool.com/books/http/read/making_requests)
-* [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine+(2).pdf)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
 
-
 ## Supplemental Learning
-* [Introduction to HTTP](https://launchschool.com/books/http)
+* [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine+(2).pdf)
 * [A Brief History of the Web](https://www.w3.org/History.html)
 * [How DNS Works Comic](https://howdns.works/ep2/)
 
