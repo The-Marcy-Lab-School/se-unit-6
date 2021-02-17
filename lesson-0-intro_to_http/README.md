@@ -18,7 +18,6 @@
 
 ## Learning Assignments
 * [Introduction to HTTP](https://launchschool.com/books/http)
-* [Making Requests](https://launchschool.com/books/http/read/making_requests)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
 
 ## Supplemental Learning
