@@ -22,7 +22,9 @@
  */
 
 const response1 = `
-    Write youre response here.
+    A promise in JavaScript represents the possible resolving, rejecting or pending state of an asynchronous operation. A promise is a returned object, that developers attach callbacks to. 
+    
+    In the example above, Raul's request is similar to an AJAX request. While the request is being sent off, the preparation of itemB is occurring, much like an asynchronous operation. What is returned is will either be the data that has been fetched (in this case the item) or callback that will deal with the state of rejection of the request. 
  `;
 
 /**
@@ -50,7 +52,18 @@ const response1 = `
  * response object.
  */
 
-const logUsers = null; //Replace null with your solution code to exercise 2
+
+const getUsers = (number) => {
+    const getData = fetch(`https://randomuser.me/api/?results=${number}`);
+
+    return getData
+        .then(response => response.json())
+        .then(data => data.results);
+}
+const logUsers = (number) => {
+    getUsers(number)
+        .then(data => console.log(data))
+}
 
 /**
  * Exercise 3:
@@ -61,7 +74,13 @@ const logUsers = null; //Replace null with your solution code to exercise 2
  * 2. number each of the names from 1-10.
  */
 
-const listTenNames = null; //Replace null with your solution code to exercise 3
+const listTenNames = () => {
+    getUsers(10).then(data => {
+        data.forEach((user, idx) => {
+            console.log(`${idx + 1}. ${user.name.first}`);
+        });
+    });
+}; //Replace null with your solution code to exercise 3
 
 /**
  * Exercise 4:
@@ -71,10 +90,19 @@ const listTenNames = null; //Replace null with your solution code to exercise 3
  * 2. and print each users name next to their phone number in a list
  * that shows up in the browser.
  * 3. *optional*: also print the names and phone numbers to the console.
- *
- */
+ **/
 
-const createPhoneBook = null; //Replace null with your solution code to exercise 4
+const createPhoneBook = () => {
+    let userList = document.createElement('ul')
+    getUsers(25).then(data => {
+        data.forEach((user) => {
+            let userPhone = document.createElement('li')
+            userPhone.innerHTML = `${user.name.first} ${user.name.last}, ${user.phone}`
+            userList.appendChild(userPhone)
+        })
+        document.getElementById('main').appendChild(userList)
+    })
+};
 
 /**
  * Exercise 5:
@@ -94,7 +122,38 @@ const createPhoneBook = null; //Replace null with your solution code to exercise
  * with multiple parameters
  */
 
-const createPhotoAlbum = null; //Replace null with your solution code to exercise 5
+const createPhotoAlbum = function(gender, nationality) {
+    const url = `https://randomuser.me/api/?gender=${gender}&nat=${nationality}&results=10`
+    let table = document.createElement('table')
+    table.id = 'table'
+    const thead = document.createElement('thead')
+
+    table.appendChild(thead)
+
+    thead.innerHTML = `
+        <tr>
+            <th>Name</th>
+            <th>Photo</th>
+        </tr>
+        `
+
+    const tbody = document.createElement('tbody')
+    table.appendChild(tbody);
+
+    document.getElementById('main').appendChild(table)
+
+    fetch(url)
+        .then(response => response.json())
+        .then(json => tbody.innerHTML = json.results.map(user => {
+            return `
+            <tr>
+                <td>${user.name.first} ${user.name.last}</td>
+                <td><img src="${user.picture.medium}"/></td>
+            </tr>
+            `
+        }).join(""))
+
+};
 
 /**
  * For exercises 6-7, use the `Joke API` and
@@ -115,7 +174,13 @@ const createPhotoAlbum = null; //Replace null with your solution code to exercis
  * 2) log the setup and delivery of the joke on separate lines
  */
 
-const logAJoke = null; //Replace null with your solution code to exercise 6
+
+const logAJoke = () => {
+    const getData = fetch('https://sv443.net/jokeapi/v2/joke/Programming?type=twopart')
+    getData.then(response => response.json())
+        .then(joke => console.log(`${joke.setup}\n ${joke.delivery}`));
+
+};
 
 /**
  * Exercise 7:
@@ -126,8 +191,13 @@ const logAJoke = null; //Replace null with your solution code to exercise 6
  * 2)  within the body of the browser, show the info portion of the response object
  *
  */
-const showApiInfo = null; //Replace null with your solution code to exercise 7
+const ApiInfo = async() => {
+    const getApiInfo = await fetch('https://sv443.net/jokeapi/v2/info');
+    const dataInfo = await getApiInfo.json();
+    document.getElementById('main').innerHTML = dataInfo.info;
+};
 
+ApiInfo();
 /**
  * EXERCISE 8:
  * Which manner of handling promises appears to be more advantageous:
@@ -135,5 +205,5 @@ const showApiInfo = null; //Replace null with your solution code to exercise 7
  */
 
 const response8 = `
-	Write your response here
+	Async/await seems to be more advantageous as it allows for more condenced and more readable code. Using async and await can also help during the debugging process since it's readability is easier to understand what is occurring. 
  `;
