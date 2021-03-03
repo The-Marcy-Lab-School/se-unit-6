@@ -1,6 +1,4 @@
-# Lesson 6.1 Notes
-
-## Intro to Get Requests
+# Lesson 1: Intro to Async and Get Requests
 
 ## Key Terms:
 
@@ -39,4 +37,4 @@
 
 ## Practice:
 
-[Practice Set 6.1](./practice)
+[Practice Set](./practice)

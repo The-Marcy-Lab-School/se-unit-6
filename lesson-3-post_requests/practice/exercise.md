@@ -1,4 +1,4 @@
-# Lesson 6.3 Practice
+# Practice
 
 ## Post Requests & Headers
 

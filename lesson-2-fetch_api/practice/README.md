@@ -1,4 +1,4 @@
-# Lesson 6.2 Practice: XHR vs. Fetch, Get Requests, & Promises
+# Practice: XHR vs. Fetch, Get Requests, & Promises
 
 ## Directions
 Respond to written responses directly in this markdown file. Use `practice.js` for coding challenge solutions.

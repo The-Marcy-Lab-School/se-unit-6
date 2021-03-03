@@ -1,6 +1,4 @@
-# Lesson 6.3 Notes
-
-## Post Requests, Error Handling and Headers
+# Lesson 3: Post Requests, Error Handling and Headers
 
 ### Key Terms:
 

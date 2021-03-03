@@ -1,4 +1,4 @@
-# Unit 6: Asynchronous JavaScript
+# Asynchronous JavaScript
 
 1. [Lesson 0 - Intro to HTTP](https://github.com/The-Marcy-Lab-School/se-unit-6/tree/master/lesson-0-intro_to_http)
 2. [Lesson 1 - Intro to Asynchronous Programming in JavaScript](https://github.com/The-Marcy-Lab-School/se-unit-6/tree/master/lesson-1-intro_to_async)

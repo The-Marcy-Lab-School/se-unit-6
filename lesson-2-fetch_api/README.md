@@ -1,4 +1,4 @@
-# Unit 6 Lesson 2: Making "Fetch" Happen
+# Lesson 2: Making "Fetch" Happen
 
 ## Key Terms:
 - Promises

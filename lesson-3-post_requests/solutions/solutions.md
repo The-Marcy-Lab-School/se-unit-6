@@ -1,4 +1,4 @@
-# Lesson 6.3 Solutions
+# Solutions
 
 ## Post Requests and Headers
 

@@ -1,4 +1,4 @@
-# Lesson 6.2 Solutions
+# Solutions
 
 ## XHR vs. Fetch, Get Requests, & Promises
 

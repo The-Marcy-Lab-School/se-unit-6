@@ -1,4 +1,4 @@
-# Unit 6 Lesson 3:  AJAX
+# AJAX Patterns Practice
 
 0. What is AJAX? Why is this important for building web applications? Include some examples of web applications which implement AJAX.
 

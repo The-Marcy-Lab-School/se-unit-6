@@ -1,4 +1,4 @@
-# Unit 6 Lesson 3:  AJAX
+# Lesson 4: AJAX Patterns
 
 ## Key Terms
 * AJAX
@@ -21,5 +21,5 @@
 * [AJAX: A New Approach to Web Applications](https://pdfs.semanticscholar.org/c440/ae765ff19ddd3deda24a92ac39cef9570f1e.pdf?_ga=2.268896824.850628240.1580156025-1688752874.1580156025) - This is the original paper which coined the term "AJAX".
 * [Optimistic vs. Pessimistic Rendering](https://medium.com/@whosale/optimistic-and-pessimistic-ui-rendering-approaches-bc49d1298cc0)
 
-## Practice Set
-+ [Lesson 6.3 Practice](./practice/exercises.md)
+## Practice 
++ [Practice Set](./practice/exercises.md)
