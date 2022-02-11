@@ -1,4 +1,4 @@
-# Lesson 2: Making "Fetch" Happen
+# Unit 6 Lesson 2: Making "Fetch" Happen
 
 ## Key Terms:
 - Promises
@@ -14,12 +14,13 @@
 
 ## Learning Assignments:
 * **Tutorial:** [Make HTTP request using Fetch API and Promises](https://medium.com/@armando_amador/how-to-make-http-requests-using-fetch-api-and-promises-b0ca7370a444)
-* **Article:** [Differences & History of XHR to Fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
-
 
 ## Documentation:
-* [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
+* [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+* [Promises.prototype.then()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then)
 * [Promises.prototype.catch()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch)
+* [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 ## Practice
 * [Practice Set](./practice)
