@@ -1,4 +1,6 @@
-# Lesson 1: Intro to Async and Get Requests
+# Lesson 6.1 Notes
+
+## Intro to Get Requests
 
 ## Key Terms:
 
@@ -16,24 +18,28 @@
 ## Essential Questions:
 
 - What is asynchronous programming and why is it important?
-- What are HTTP Requests?
+- What are HTTP Requests? 
+- What is XHR (XMLHttpRequest)?
 - What are promises?
 - How can the Fetch API used to make HTTP Requests?
+- What is the new Async/Await syntax? 
+- What syntax should we use a modern JavaScript developers?
 
 ## Learning Assignments:
 
-1. **Video Tutorial Playlist:** [Net Ninja's Asynchronous JavaScript Tutorial](https://www.youtube.com/watch?v=ZcQyJ-gxke0&list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu)
-    * 90 minute playlist, but all very valuable information
+1. **Video Tutorial Playlist:** [Net Ninja's Asynchronous JavaScript Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu)
+   * 90 minute playlist, but all very valuable information
 
 2. **Tutorial:** [Beginners Guide To Fetching Data](https://dev.to/bjhaid_93/beginners-guide-to-fetching-data-with-ajax-fetch-api--asyncawait-3m1l)
 
 ## MDN Documentation:
+
+ * [HTTP Requests Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
  * [Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
  * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
  * [Async/Await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
- * [HTTP Requests Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 
 ## Practice:
 
-[Practice Set](./practice)
+[Practice Set 6.1](./practice)
