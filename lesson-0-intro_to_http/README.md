@@ -1,9 +1,8 @@
-# Lesson 0: Intro to HTTP
+# Unit 6 Lesson 0:  Intro to HTTP
 
 ## Key Terms
 * HTTP
 * DNS
-* TCP/IP
 * Session
 * Cookies
 * Request/Response Cycle
@@ -14,7 +13,10 @@
 ## Essential Questions
 * How do protocols ensure safe and secure transfer of data across the internet?
 * What is the request/response cycle? How would you describe this to a non-technical person? What about a technical person?
+* What is a DNS, and why is it useful?
 * What is the difference between "stateless" and "stateful? How does that apply to the internet?  
+* What is the Same Origin Policy? What about CORS? How are they related?
+* What is the difference between HTTP and HTTPS?
 
 ## Learning Assignments
 * [Introduction to HTTP](https://launchschool.com/books/http)
@@ -26,4 +28,4 @@
 * [How DNS Works Comic](https://howdns.works/ep2/)
 
 ## Problem Set
-[Problem Set: Intro to HTTP](https://github.com/The-Marcy-Lab-School/problem-set-6_0)
+Problem Set 6.0
