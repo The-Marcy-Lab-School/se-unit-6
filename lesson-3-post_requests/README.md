@@ -48,4 +48,4 @@
 
 ### Practice
 
-[Practice-Set](./practice/exercise.md)
+[Practice-Set](./practice)
