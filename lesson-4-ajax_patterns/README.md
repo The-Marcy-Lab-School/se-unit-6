@@ -14,7 +14,6 @@
 ## Learning Assignments
 * [Javascript.info: Async/Wait](https://javascript.info/async-await)
 * [Node.js: Async/Await](https://nodejs.dev/learn/modern-asynchronous-javascript-with-async-and-await)
-* [Dmitri Pavlutin: Async Await](https://dmitripavlutin.com/javascript-fetch-async-await/)
 * [Optimistic and Pessimistic UI Rendering Approaches](https://medium.com/@whosale/optimistic-and-pessimistic-ui-rendering-approaches-bc49d1298cc0)
 * [Pessimistic vs Optimistic UI Rendering in Javascript](https://paoladolcemascolo.medium.com/pessimistic-vs-optimistic-rendering-b3657cbed9d5)
 
