@@ -22,7 +22,7 @@
 * [Introduction to HTTP](https://launchschool.com/books/http)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
 
-## Supplemental Learning
+## Optional Supplemental Learning
 * [HTTP: Learn Your Browser's Language](https://marcy-lab-school.s3.us-east-2.amazonaws.com/http-zine+(2).pdf)
 * [A Brief History of the Web](https://www.w3.org/History.html)
 * [How DNS Works Comic](https://howdns.works/ep2/)
