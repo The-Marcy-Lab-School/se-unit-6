@@ -25,18 +25,14 @@
 
 ### Learning Assignments:
 
-**Watch Videos:**
-- [Sending Form Data with Post & Fetch API](https://www.youtube.com/watch?v=c3qWHnJJbSY)
-- [Handling Failed HTTP Requests with Fetch](https://www.youtube.com/watch?v=b8DaQrxshu0)
-
-**Launch School Review:**
-- [Post Requests](https://launchschool.com/books/http/read/making_requests#post)
-- [Http Headers](https://launchschool.com/books/http/read/making_requests#httpheaders)
-- [Request Headers](https://launchschool.com/books/http/read/making_requests#requestheaders)
-- [Summary](https://launchschool.com/books/http/read/making_requests#summary)
-
 **MDN Documentation:**
 - [Supply Request Options](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options)
+
+**Examples using [Jsonplaceholder](https://jsonplaceholder.typicode.com):**
+- [Geeks For Geeks: GET and POST method using Fetch API](https://www.geeksforgeeks.org/get-and-post-method-using-fetch-api/)
+- [Free Code Camp: How to Make API Calls With Fetch](https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/)
+- [Medium: Fetch API Introduction](https://medium.com/codingthesmartway-com-blog/fetch-api-introduction-to-promised-based-data-fetching-in-plain-javascript-620e54898d8e)
+- [Youtube: How to use Fetch with JavaScript](https://www.youtube.com/watch?v=tVQgfKqbX3M)
 
 ### Practice
 
