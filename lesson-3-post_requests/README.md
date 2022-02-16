@@ -25,13 +25,11 @@
 
 ### Learning Assignments:
 
-**Assignment 1: Watch Videos**
-
+**Watch Videos:**
 - [Sending Form Data with Post & Fetch API](https://www.youtube.com/watch?v=c3qWHnJJbSY)
-
 - [Handling Failed HTTP Requests with Fetch](https://www.youtube.com/watch?v=b8DaQrxshu0)
 
-
+**Launch School Review:**
 - [Post Requests](https://launchschool.com/books/http/read/making_requests#post)
 - [Http Headers](https://launchschool.com/books/http/read/making_requests#httpheaders)
 - [Request Headers](https://launchschool.com/books/http/read/making_requests#requestheaders)
