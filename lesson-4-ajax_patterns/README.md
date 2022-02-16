@@ -5,7 +5,7 @@
 * `fetch`
 * XML
 * JSON
-* Async
+* Async/Await
 * Optimistic Rendering
 * Pessimistic Rendering
 
