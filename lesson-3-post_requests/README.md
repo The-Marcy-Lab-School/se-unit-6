@@ -24,7 +24,8 @@
 - What are other types of http requests besides GET and POST?
 
 ### Learning Assignments:
-- [Fetch and POST Fetch](https://javascript.info/fetch)
+- [Fetch](https://javascript.info/fetch)
+- [POST Fetch](https://javascript.info/fetch#post-requests)
 
 **MDN Documentation:**
 - [Supply Request Options](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#supplying_request_options)
