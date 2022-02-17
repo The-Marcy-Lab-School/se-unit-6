@@ -1,14 +1,15 @@
 # Unit 6 Lesson 0:  Intro to HTTP
 
 ## Key Terms
+* Request/Response Cycle
+* cURL
 * HTTP
+* HTTPS
 * DNS
 * Session
 * Cookies
-* Request/Response Cycle
 * Same Origin Policy
 * CORS
-* HTTPS
 
 ## Essential Questions
 * How do protocols ensure safe and secure transfer of data across the internet?
