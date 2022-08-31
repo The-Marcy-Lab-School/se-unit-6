@@ -1,7 +1,5 @@
 # Lesson 6.1 Notes
 
-## Intro to Get Requests
-
 ## Key Terms:
 
 - Asynchronous Programming
