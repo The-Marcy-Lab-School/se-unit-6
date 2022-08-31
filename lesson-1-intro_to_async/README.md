@@ -8,7 +8,6 @@
 - Single-threaded
 - Non-blocking
 - JSON
-- `XMLHttpRequest`
 - Promises
 - Fetch API
 - GET Requests
@@ -19,7 +18,6 @@
 
 - What is asynchronous programming and why is it important?
 - What are HTTP Requests? 
-- What is XHR (XMLHttpRequest)?
 - What are promises?
 - How can the Fetch API used to make HTTP Requests?
 - What is the new Async/Await syntax? 
