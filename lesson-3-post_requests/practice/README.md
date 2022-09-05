@@ -9,7 +9,7 @@ Open the Google Chrome with incognito browser then navigate to https://www.gmail
 Open the developer console (COMMAND + OPTION + "i"). Click the NETWORK tab to bring all network requests into view.
 In the browser, login as _fake@email.com_. STOP here, there is no need to enter a password.
 Examine the network request and response headers.
-Describe the differences between the two header types, GET and POST.
+Describe the differences between the two header types, **GET** and **POST**.
 
 **Exercise 2:**
 Visit the Fake Data API at https://reqres.in/.
