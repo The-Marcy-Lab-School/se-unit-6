@@ -2,8 +2,6 @@
 
 ## Post Requests & Headers
 
-### Directions: Type out written responses in the `written-responses.md` file. Code out functions in the `practice.js` file.
-
 **Exercise 1:**
 Visit the Fake Data API at https://reqres.in/.
 Look through the various examples of post requests.Analyze the request bodies and response bodies.
