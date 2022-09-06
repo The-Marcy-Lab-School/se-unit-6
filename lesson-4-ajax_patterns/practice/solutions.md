@@ -55,12 +55,6 @@ document.addEventListener('DOMContentLoaded', () => new BookSearch() )
 **Suggested Answer**: Here's one way you might do this.
 
 ```js
-function handleSearch(e){
-  e.preventDefault();
-  fetchBooks(e.target[0].value)
-  e.target.reset()
-}
-
 function fetchBooks(query){
   const url = 'https://www.googleapis.com/books/v1/volumes?q='
 
@@ -120,33 +114,13 @@ function createBookList(books){
 }
 ```
 
-5. Write a function, `renderBookList`, that given an array of books, actually renders an unordered list into the DOM.
+5. Write a function, `renderBookList`, that given an array of books, actually renders that unordered list into the DOM.
 
 **Suggested Answer**
 
 ```js
-function addSearchListener(e){
-  const results = document.getElementById('results')
-
-  function renderBookList(books){
-    results.append(createBookList(books))
-  }
-
-  function createBookList(books){
-    const bookList = document.createElement('ul')
-    books.forEach(book => {
-      const listItem = createBookListItem(book.volumeInfo);
-      bookList.append(listItem)
-    })
-
-    return bookList
-  }
-
-  function createBookListItem(volumeInfo){
-    const li = document.createElement('li')
-    li.innerText = volumeInfo.title
-    return li
-  }
+function renderBookList(books){
+  results.append(createBookList(books))
 }
 ```
 
@@ -155,104 +129,47 @@ function addSearchListener(e){
 **Suggested Answer**
 
 ```js
-function addSearchListener(e){
+
+document.addEventListener('DOMContentLoaded', function(e){
   const form = document.getElementById("book-search")
-  const search = form[0]
-  const results = document.getElementById('results')
-
-  function handleSearch(e){
-    e.preventDefault()
-    fetchBooks(search.value).then(books => renderBookList(books))
-  }
-
-  function renderBookList(books){
-    results.append(createBookList(books))
-  }
-
-  function fetchBooks(query){
-    const url = 'https://www.googleapis.com/books/v1/volumes?q='
-
-    return fetch(url + query)
-      .then(res => res.json())
-      .then(data => data.items )
-  }
-
-  function createBookList(books){
-    const bookList = document.createElement('ul')
-    books.forEach(book => {
-      const listItem = createBookListItem(book.volumeInfo);
-      bookList.append(listItem)
-    })
-
-    return bookList
-  }
-
-  function createBookListItem(volumeInfo){
-    const li = document.createElement('li')
-    li.innerText = volumeInfo.title
-    return li
-  }
-
   form.addEventListener('submit', handleSearch)
+})
+
+function handleSearch(e){
+  e.preventDefault();
+  fetchBooks(e.target[0].value)
+  e.target.reset()
 }
 
-document.addEventListener('DOMContentLoaded', addSearchListener)
-```
-
-7. Looking at the code we wrote, what do you like about it? What could make it better?
-
-**Suggested Answer** Some things that could make the code work well:
-
-1. We've separated out the idea of fetching data, creating elements, and actually adding this into the DOM. This is a general Model-View-Controller paradigm.
-2. We could improve this by separating these concerns into separate functions or classes. We could also move these into separate files or modules to help break things up if we wanted.
-
-```js
 function fetchBooks(query){
   const url = 'https://www.googleapis.com/books/v1/volumes?q='
 
-  return fetch(url + query)
+  fetch(url + query)
     .then(res => res.json())
-    .then(data => data.items )
+    .then(data => {
+      renderBookList(data.items)
+    })
+}
+
+function createBookListItem(volumeInfo){
+  const li = document.createElement('li')
+  li.innerText = volumeInfo.title
+  return li
 }
 
 function createBookList(books){
   const bookList = document.createElement('ul')
-
-  function createBookListItem(volumeInfo){
-    const li = document.createElement('li')
-    li.innerText = volumeInfo.title
-    return li
-  }
-
   books.forEach(book => {
     const listItem = createBookListItem(book.volumeInfo);
     bookList.append(listItem)
   })
 
-  return bookList;
+  return bookList
 }
 
-
-function bookSearchController(){
-  const form = document.getElementById("book-search")
-  const search = form[0]
-  const results = document.getElementById('results')
-
-  function renderBookList(books){
-    results.append(createBookList(books))
-  }
-
-  function handleSearch(e){
-    e.preventDefault();
-    fetchBooks(search.value).then(books => renderBookList(books))
-  }
-
-  form.addEventListener('submit', handleSearch)
+function renderBookList(books){
+  results.append(createBookList(books))
 }
-
-
-
-document.addEventListener('DOMContentLoaded', bookSearchController)
 ```
 
 8. Write an application that allows a user to search for GIFs using the [GiphyAPI](https://developers.giphy.com/docs/api/endpoint#search). Your application should include a form where a user can input a search query. You should then get a list of results from the Giphy API and display one at random to the user.
