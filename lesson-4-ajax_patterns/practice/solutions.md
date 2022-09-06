@@ -13,20 +13,16 @@ For the next questions, write your code in the `book-search` directory.
 **Suggested Answer** Here's one way you might solve it.
 
 ```js
-function addSearchListener(e){
+document.addEventListener('DOMContentLoaded', function(e){
   const form = document.getElementById("book-search")
-
-  function handleSearch(e){
-    e.preventDefault();
-    fetchBooks(form[0].value)
-    form.reset()
-  }
-
   form.addEventListener('submit', handleSearch)
+})
+
+function handleSearch(e){
+  e.preventDefault();
+  console.log(e.target[0].value)
+  e.target.reset()
 }
-
-
-document.addEventListener('DOMContentLoaded', addSearchListener)
 ```
 
 You could also solve this in an object-oriented fashion by creating a class to represent our BookSearch function:
@@ -59,6 +55,11 @@ document.addEventListener('DOMContentLoaded', () => new BookSearch() )
 **Suggested Answer**: Here's one way you might do this.
 
 ```js
+function handleSearch(e){
+  e.preventDefault();
+  fetchBooks(e.target[0].value)
+  e.target.reset()
+}
 
 function fetchBooks(query){
   const url = 'https://www.googleapis.com/books/v1/volumes?q='
@@ -69,6 +70,7 @@ function fetchBooks(query){
       data.items.forEach(item => console.log(item.volumeInfo.title))
     })
 }
+
 ```
 
 This function could also be added as a method to our class above.
