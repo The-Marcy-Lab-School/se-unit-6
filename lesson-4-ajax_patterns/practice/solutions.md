@@ -15,12 +15,11 @@ For the next questions, write your code in the `book-search` directory.
 ```js
 function addSearchListener(e){
   const form = document.getElementById("book-search")
-  const search = form[0]
 
   function handleSearch(e){
     e.preventDefault();
-    console.log(search.value)
-    search.value = ''
+    fetchBooks(form[0].value)
+    form.reset()
   }
 
   form.addEventListener('submit', handleSearch)
