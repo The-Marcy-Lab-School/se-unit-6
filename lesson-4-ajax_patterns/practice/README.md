@@ -1,4 +1,4 @@
-# AJAX Patterns Practice
+# Fetch App Practice
 
 0. What is AJAX? Why is this important for building web applications? Include some examples of web applications which implement AJAX.
 
