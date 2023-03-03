@@ -20,7 +20,14 @@
 * What is the difference between HTTP and HTTPS?
 
 ## Learning Assignments
-* [Introduction to HTTP](https://launchschool.com/books/http)
+* [Introduction to HTTP](https://launchschool.com/books/http). Read the following chapters:
+  * [Background](https://launchschool.com/books/http/read/background#briefhistory)
+  * [Optional: What is a URL](https://launchschool.com/books/http/read/what_is_a_url)
+  * [Optional: Preparations](https://launchschool.com/books/http/read/preparations)
+  * [Making Requests](https://launchschool.com/books/http/read/making_requests)
+  * [Processing Responses](https://launchschool.com/books/http/read/processing_responses)
+  * [Stateful Web Applications](https://launchschool.com/books/http/read/statefulness)
+  * [Security](https://launchschool.com/books/http/read/security)
 * [Blog post on curl](https://www.networkworld.com/article/2992017/the-joy-of-curl.html)
 
 ## Optional Supplemental Learning
